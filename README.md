@@ -41,7 +41,7 @@ Please be careful with the above command. It will delete any passwords file at t
 
 In order to provide groups of users access to each individual site account the apache configuration file can use user groups. Here an example:
 ```
-<Directory /var/www/html/applications/ipad-app/d/siteA>
+<Directory /<your checkout location>/d/siteA>
     AuthType Basic
     AuthName intranet
     AuthUserFile /var/www/passwords
